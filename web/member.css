@@ -1,0 +1,174 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.member{
+    width: 900px;
+    margin: 50px auto;
+}
+
+h1{
+    font-size: 30px;
+    color: #382863;
+}
+
+h3{
+    font-size: 24px;
+    color: #ebe0ee;
+}
+
+h4{
+    font-size: 20px;
+    color: #382863;
+}
+
+.data table{
+    width: 700px;
+    margin: 30px 0 100px;
+}
+
+.data table th,.order_form table th{
+    height: 40px;
+    background-color: #8169ac;
+}
+
+.data table thead th,.order_form table thead th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.data table thead th:first-child,.order_form table thead th:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.data table thead th:first-child{
+    width: 130px;
+}
+  
+.data table thead th:last-child,.order_form table thead th:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.data table tbody td,.order_form table tbody td{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.order_form table{
+    width: 900px;
+    margin: 30px 0 100px;
+}
+
+.schedule{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 25px 35px;
+}
+
+.schedule p{
+    font-size: 14px;
+    color: #382863;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.schedule li{
+    background-color: #bd9ac6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 125px;
+    position: relative;
+}
+
+.schedule li:before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 5px;
+    background-color: #bd9ac6;
+    top: 0;
+    bottom: 0;
+    right: -130px;
+    margin: auto;
+    z-index: -1;
+}
+
+.schedule li:last-child:before{
+    background-color: #ffffff00;
+}
+
+.order_form tbody tr:nth-child(even){
+    border-bottom: 3px solid #8169ac;
+}
+
+.order_form tbody tr:nth-child(4) li:nth-child(3),.order_form tbody tr:nth-child(4) li:nth-child(4){
+    background-color: #868293;
+}
+
+.order_form tbody tr:nth-child(4) li:nth-child(2):before,.order_form tbody tr:nth-child(4) li:nth-child(3):before{
+    background-color: #868293;
+}
+
+button{
+    font-size: 16px;
+    color: #ebe0ee;
+    background-color: #382863;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}

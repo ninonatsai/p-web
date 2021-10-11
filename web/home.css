@@ -1,0 +1,250 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.slider{
+    width: 1200px;
+    margin: 80px auto 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider img{
+    border-radius: 20px;
+}
+
+.slider button{
+    border: none;
+    background-color: #ffffff00;
+    margin: auto 80px;
+}
+
+.slider button img{
+    width: 25px;
+}
+
+.slogan{
+    width: 450px;
+    margin: 0 auto 70px;
+}
+
+.slogan img{
+    width: 450px;
+}
+
+.visual_pic{
+    width: 840px;
+    margin: 0 auto 200px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.visual_pic img{
+    width: 190px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.new{
+    width: 1100px;
+    height: 450px;
+    background-color: #382863;
+    border-radius: 20px;
+    margin: 0 auto 50px;
+    padding: 30px 0;
+}
+
+.new_title,.hot_title{
+    display: flex;
+    align-items: center;
+}
+
+.new_title h1{
+    font-size: 30px;
+    color: #ebe0ee;
+    margin-left: 35px;
+}
+
+.new_title img,.hot_title img{
+    width: 120px;
+    margin-left: 50px;
+}
+
+.new_wrap,.hot_wrap{
+    width: 840px;
+    display: flex;
+    margin: 45px auto 0;
+}
+
+.new_item,.hot_item{
+    width: 250px;
+    margin: 0 20px;
+}
+
+.new_item img,.hot_item img{
+    width: 100%;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.new_item h4{
+    font-size: 20px;
+    color: #ebe0ee;
+    margin: 10px 0 5px 0;
+}
+
+.new_item p{
+    font-size: 16px;
+    color: #ebe0ee;
+}
+
+.new_more,.hot_more{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new_more img,.hot_more img{
+    width: 70px;
+    margin: 10px 50px 0 0;
+}
+
+.hot{
+    width: 1100px;
+    height: 450px;
+    margin: 0 auto 100px;
+    padding: 30px 0;
+}
+
+.hot_title h1{
+    font-size: 30px;
+    color: #382863;
+    margin-left: 35px;
+}
+
+.hot_item h4{
+    font-size: 20px;
+    color: #382863;
+    margin: 10px 0 5px 0;
+}
+
+.hot_item p{
+    font-size: 16px;
+    color: #382863;
+}
+
+.procedure{
+    width: 810px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 80px;
+}
+
+.custom_click{
+    display: flex;
+    align-items: center;
+    margin: 0 0 40px;
+}
+
+.custom_click h3{
+    font-size: 24px;
+    color: #382863;
+    margin-right: 50px;
+}
+
+.custom_click img{
+    width: 80px;
+}
+
+.custom_click button{
+    border: none;
+    background-color: #ffffff00;
+}
+
+.custom_click button img{
+    width: 200px;
+}
+
+.procedure_item p{
+    font-size: 18px;
+    color: #8169ac;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.procedure_item td img{
+    width: 120px;
+}
+
+.procedure_item tbody td:nth-of-type(even) img{
+    width: 40px;
+    margin: 0 35px 50px;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}
+
+.back_top{
+    width: 30px;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+
+.back_top img{
+    width: 30px;
+}
+
+.back_top a{
+    font-size: 20px;
+    color: #8169ac;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,0 +1,147 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.product{
+    width: 1100px;
+    display: flex;
+    margin: 50px auto;
+}
+
+.menu{
+    width: 110px;
+    margin: 10px 50px 0 0;
+}
+
+.menu h1{
+    font-size: 30px;
+    color: #382863;
+    padding: 0 0 15px 5px;
+    border-bottom: 3px solid #bd9ac6;
+}
+
+.menu button{
+    border: none;
+    background-color: #ffffff00;
+    margin: 5px 0;
+}
+
+h1 + button{
+    padding-top: 10px;
+}
+
+.menu h3{
+    font-size: 24px;
+    font-family: 華康中圓體;
+    color: #382863;
+}
+
+.product_group{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.product_item{
+    width: 250px;
+    margin: 0 25px;
+}
+
+.product_item img{
+    width: 100%;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.product_item button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+h4{
+    font-size: 20px;
+    color: #382863;
+    margin: 10px 0 5px 0;
+}
+
+.product_text{
+    border-bottom: 2px solid #bd9ac6;
+}
+
+.product_text p{
+    font-size: 16px;
+    color: #382863;
+    margin-bottom: 5px;
+}
+
+.page{
+    text-align: end;
+    margin-right: 25px;
+}
+
+.page a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8169ac;
+    padding: 0 3px;
+}
+
+.page a:first-child{
+    border-bottom: 1px solid #8169ac;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}

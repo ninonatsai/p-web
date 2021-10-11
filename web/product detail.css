@@ -1,0 +1,224 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.back{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    margin: 50px auto 20px;
+}
+
+.back img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.back a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8169ac;
+}
+
+.product_detail{
+    width: 850px;
+    display: flex;
+    margin: 10px auto 100px;
+}
+
+.product_pic img{
+    width: 450px;
+    border-radius: 15px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.pic_detail img{
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.product_text{
+    width: 350px;
+    padding-left: 50px;
+}
+
+.product_text h2{
+    font-size: 26px;
+    color: #382863;
+    border-bottom: 3px solid #bd9ac6;
+    padding-bottom: 15px;
+}
+
+.product_text h3{
+    font-size: 24px;
+    color: #382863;
+    padding-top: 15px;
+}
+
+.product_text p{
+    font-size: 16px;
+    color: #382863;
+    line-height: 1.5;
+    margin: 50px 0;
+}
+
+.series{
+    border-top: 3px solid #bd9ac6;
+    padding-top: 15px;
+}
+
+.series_item{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.series_item img{
+    width: 80px;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.item_button{
+    display: flex;
+    align-items: center;
+    
+}
+
+.item_button p{
+    margin: 0;
+}
+
+select{
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    border: none;
+    background-color: #8169ac;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 10px 0 70px;
+}
+
+.item_button button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.others{
+    width: 1000px;
+    height: 320px;
+    background-color: #382863;
+    border-radius: 20px;
+    margin: 0 auto 50px;
+    padding: 30px 0;
+}
+
+.others h3{
+    font-size: 24px;
+    color: #ebe0ee;
+    margin-left: 35px;
+}
+
+.others_wrap{
+    width: 920px;
+    display: flex;
+    margin: 45px auto 0;
+    align-items: center;
+}
+
+.others_arrow_l{
+    margin-right: 40px;
+}
+
+.others_arrow_r{
+    margin-left: 40px;
+}
+
+.others_arrow_l button,.others_arrow_r button{
+    background-color: #ffffff00;
+    border: none;
+}
+
+.others_arrow_l button img,.others_arrow_r button img{
+    width: 20px;
+}
+
+.others_item{
+    width: 180px;
+    margin: 0 10px;
+}
+
+.others_item img{
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.others_item h4{
+    font-size: 20px;
+    color: #ebe0ee;
+    margin: 10px 0 5px 0;
+}
+
+.others_item p{
+    font-size: 16px;
+    color: #ebe0ee;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}

@@ -1,0 +1,171 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.costom_detail{
+    width: 1000px;
+    display: flex;
+    margin: 50px auto 40px;
+}
+
+.costom_form{
+    width: 350px;
+}
+
+h1{
+    font-size: 30px;
+    color: #382863;
+    border-bottom:3px solid #bd9ac6;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 26px;
+    color: #382863;
+    margin: 15px 0;
+}
+
+ul + h4{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 20px;
+    color: #382863;
+    margin: 20px 0 5px;
+}
+
+p{
+    font-size: 16px;
+    color: #8169ac;
+    line-height: 1.5;
+}
+
+select,textarea{
+    width: 250px;
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    border: none;
+    background-color: #8169ac;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+textarea{
+    width: 240px;
+}
+
+.extra h4{
+    margin-bottom: 15px;
+}
+
+.extra select{
+    margin-bottom: 10px;
+}
+
+input[type=checkbox]+span{
+    font-size: 16px;
+    color: #382863;
+}
+
+.agree{
+    border-top:3px solid #bd9ac6;
+    border-bottom:3px solid #bd9ac6;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.form_button{
+    text-align: end;
+    padding-top: 15px;
+}
+
+.form_button a{
+    text-decoration: none;
+    color: #ebe0ee;
+}
+
+button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.cancel{
+    background-color: #868293
+    ;
+}
+
+.sure{
+    background-color: #382863;
+}
+
+.costom_pic{
+    width: 650px;
+    margin-left: 50px;
+}
+
+.costom_pic img:first-child{
+    width: 630px;
+    padding: 0 10px;
+}
+
+.costom_pic img{
+    width: 300px;
+    padding: 10px;
+}
+
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}

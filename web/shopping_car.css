@@ -1,0 +1,282 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.nav_button button,.footer_button button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 10px;
+}
+
+.nav_button a:hover,.footer_button a:hover{
+    border-bottom: 2px solid #382863;
+}
+
+.nav_button img,.footer_button img,.sns img{
+    height: 30px;
+}
+
+.up_line img,.d_line img{
+    width: 100%;
+}
+
+.shopping_car{
+    width: 900px;
+    margin: 50px auto;
+}
+
+.shopping_list{
+    border-bottom: 3px solid #bd9ac6;
+}
+
+h1{
+    font-size: 30px;
+    color: #382863;
+}
+
+.shopping_list h3{
+    font-size: 24px;
+    color: #ebe0ee;
+}
+
+h4{
+    font-size: 20px;
+    color: #382863;
+}
+
+.shopping_list table{
+    width: 900px;
+    margin: 30px 0;
+}
+
+.shopping_list table th{
+    height: 40px;
+    background-color: #8169ac;
+}
+
+.shopping_list table thead th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.shopping_list table thead th:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 80px;
+}
+  
+.shopping_list table thead th:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 120px;
+}
+
+.shopping_list thead th:nth-child(3){
+    width: 120px;
+}
+
+.shopping_list table tbody td{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.shopping_list button{
+    border: none;
+    background-color: #ffffff00;
+}
+.shopping_list button img{
+    width: 30px;
+}
+
+.product_name{
+    display: flex;
+    align-items: center;
+}
+
+.product_name img{
+    width: 80px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+input.minus{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    color: #ebe0ee;
+    background: #8169ac;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    height: 35px;
+}
+
+.quantity{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    text-align: center;
+    color: #ebe0ee;
+    background: #8169ac;
+    border: none;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+input.plus{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    color: #ebe0ee;
+    background: #8169ac;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    height: 35px;
+}
+
+.shopping_total{
+    height: 200px;
+    position: relative;
+}
+
+.shopping_total h3{
+    font-size: 24px;
+    color: #8169ac;
+    text-align: end;
+}
+
+.shopping_total table{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.shopping_total thead th:last-child{
+    width: 120px;
+}
+
+.shopping_total td{
+    padding: 10px 0 20px;
+}
+
+.shopping_total table tbody tr:nth-child(2){
+    border-top: 3px solid #bd9ac6;
+}
+
+.information{
+    width: 900px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.information form{
+    margin-top: 15px;
+    border-top: 3px solid #bd9ac6;
+    padding: 15px 0;
+}
+
+p{
+    font-size: 16px;
+    color: #382863;
+    line-height: 1.5;
+}
+
+.pay{
+    width: 250px;
+    padding-right: 200px;
+}
+
+.pay input[type="radio"]{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.pay p:nth-child(2),.pay p:nth-child(3){
+    text-indent : 1.3em ;
+}
+
+.recipient input{
+    width: 250px;
+    height: 40px;
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1em;
+    margin: 5px 0 15px 0;
+}
+
+.recipient textarea{
+    font-family: 華康中圓體;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ebe0ee;
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.sc_button{
+    text-align: end;
+    border-top: 3px solid #bd9ac6;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.sc_button a{
+    text-decoration: none;
+    color: #ebe0ee;
+}
+
+button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.sc_button button:first-child{
+    background-color: #bd9ac6;
+}
+
+.sc_button button:last-child{
+    background-color: #382863;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sns{
+    margin: 0 30px;
+}
+
+.sns button{
+    border: none;
+    background-color: #ffffff00;
+    padding: 0 5px;
+}
