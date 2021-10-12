@@ -42,8 +42,9 @@ nav{
     justify-content: center;
 }
 
-.slider img{
+.slider img:nth-child(2){
     border-radius: 20px;
+    box-shadow: 3px 3px 18px #575757;
 }
 
 .slider button{
