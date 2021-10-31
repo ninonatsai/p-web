@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Login</title>
 
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="contact-rwd.css">
+    <link rel="stylesheet" href="log-rwd.css">
 </head>
 <body>
-    
     <div class="main-header">
         <div class="logo">
             <a href="home-rwd.html"><img src="../icon/logo.svg" alt="ninona_handmade"></a>
@@ -27,22 +26,18 @@
     <div class="up_line">
         <img src="../icon/line.svg" alt="上裝飾線">
     </div>
-    <div class="contact_form">
-        <h1>聯絡我們</h1>
+    
+    <div class="log_in">
+        <h1>會員登入</h1>
         <form action="">
-            <p>歡迎利用社群或是以下留言方式與我們聯絡</p>
-            <h4>姓名</h4>
-            <input type="text" placeholder="請輸入會員名稱">
-            <h4>email</h4>
+            <h4>帳號</h4>
             <input type="mail" placeholder="請輸入email">
-            <h4>標題</h4>
-            <input type="text" placeholder="請輸入標題">
-            <h4>留言內容</h4>
-            <textarea name="comments" rows="5"></textarea>
+            <h4>密碼</h4>
+            <input type="password" placeholder="請輸入密碼">
         </form>
         <div class="sign_button">
-            <button class="already"><a href="home-rwd.html">取 消</a></button>
-            <button class="signup"><a href="member.html">送 出</a></button>
+            <button class="already"><a href="sign-rwd.html">未加入會員</a></button>
+            <button class="signup"><a href="member-rwd.html">登 入</a></button>
         </div>
     </div>
 
@@ -76,5 +71,4 @@
         }
         window.addEventListener("load", init, false);
     </script>
-</body>
 </html>

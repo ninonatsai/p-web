@@ -77,11 +77,11 @@ nav img:hover,footer img:hover{
     overflow: hidden;
 }
 
-/*-----------註冊表單-------------*/
+/*-----------登入表單-------------*/
 
-.sign_up{
+.log_in{
     width: 265px;
-    margin: 5% auto;
+    margin: 5% auto 10%;
 }
 
 h1{
