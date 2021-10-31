@@ -151,7 +151,7 @@ footer img{
 
 /*-----------RWD-------------*/
 @media screen and (max-width:786px){
-    .sign_up{
-        margin: 7% auto 30%;
+    .log_in{
+        margin: 7% auto 90%;
     }
 }

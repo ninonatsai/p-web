@@ -113,7 +113,9 @@
         <h2>你可能也會喜歡</h2>
         <ul class="slider">
             <li>
-                <img src="../pic/06_A.jpg" alt="刺繡菱形耳環">
+                <a href="productDetail-rwd.html">
+                    <img src="../pic/06_A.jpg" alt="刺繡菱形耳環">
+                </a>
                 <h4>刺繡菱形耳環</h4>
                 <p>NT.680</p>
             </li>
@@ -160,8 +162,8 @@
     </footer>
 
     <!---------------- JS -------------------->
+    <!-- ------------漢堡選單---------------->
     <script>
-        //------------漢堡選單-------------//
         function openCloseMenu(){
             if(document.getElementById("menu").className == ""){
                 document.getElementById("menu").className = "show";
@@ -174,8 +176,11 @@
         function init(){
             document.getElementById("hbg_btn").onclick = openCloseMenu;
         }
-        
-        //------------大小圖交換-------------//
+        window.addEventListener("load", init, false);
+    </script>
+    
+    <!--------------大小圖交換---------------->
+    <script>
         function showLarge(e){
             let pic_small = e.target;
             document.getElementById("large").src = pic_small.src.replace("_sl","");
@@ -211,7 +216,7 @@
                 slidesToScroll: 3,
                 infinite: true,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 3000,
               }
             },
             {
@@ -220,7 +225,7 @@
                 slidesToShow: 2,
                 slidesToScroll: 2,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 3000,
               }
             },]
         });
