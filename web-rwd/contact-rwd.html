@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contact-rwd.css">
+</head>
+<body>
+    
+    <div class="main-header">
+        <div class="logo">
+            <a href="home-rwd.html"><img src="../icon/logo.svg" alt="ninona_handmade"></a>
+        </div>
+        <img src="../icon/hbg.svg" alt="漢堡" id="hbg_btn" class="myMOUSE">
+        <nav id="menu">
+            <a href="story-rwd.html"><img src="../icon/story.svg" alt="品牌故事"></a>
+            <a href="products-rwd.html"><img src="../icon/product.svg" alt="商品"></a>
+            <a href="custom-rwd.html"><img src="../icon/custom.svg" alt="客製委託"></a>
+            <a href="sign-rwd.html"><img src="../icon/sign.svg" alt="註冊_登入"></a>
+            <a href="shop-rwd.html"><img src="../icon/shop.svg" alt="購物車"></a>
+        </nav>
+    </div>
+    <div class="up_line">
+        <img src="../icon/line.svg" alt="上裝飾線">
+    </div>
+    <div class="contact_form">
+        <h1>聯絡我們</h1>
+        <form action="">
+            <p>歡迎利用社群或是以下留言方式與我們聯絡</p>
+            <h4>姓名</h4>
+            <input type="text" placeholder="請輸入會員名稱">
+            <h4>email</h4>
+            <input type="mail" placeholder="請輸入email">
+            <h4>標題</h4>
+            <input type="text" placeholder="請輸入標題">
+            <h4>留言內容</h4>
+            <textarea name="comments" rows="5"></textarea>
+        </form>
+        <div class="sign_button">
+            <button class="already"><a href="">取 消</a></button>
+            <button class="signup"><a href="member.html">送 出</a></button>
+        </div>
+    </div>
+
+    <div class="d_line">
+        <img src="../icon/line-2.svg" alt="下裝飾線">
+    </div>
+
+    <footer>
+        <a href="contact-rwd.html"><img src="../icon/contact.svg" alt="聯絡我們"></a>
+        <a href="#"><img src="../icon/notice.svg" alt="購物須知"></a>
+        <div class="sns">
+            <a href="https://www.facebook.com/"><img src="../icon/fb.svg" alt="FB"></a>
+            <a href="https://www.instagram.com/"><img src="../icon/ig.svg" alt="IG"></a>  
+        </div>
+    </footer>
+
+    <!---------------- JS -------------------->
+    <!-- ------------漢堡選單------------- -->
+    <script>
+        function openCloseMenu(){
+            if(document.getElementById("menu").className == ""){
+                document.getElementById("menu").className = "show";
+                document.getElementById("hbg_btn").src = "../icon/x.svg";
+            }else{
+                document.getElementById("menu").className = "";
+                document.getElementById("hbg_btn").src = "../icon/hbg.svg";
+            }
+        }
+        function init(){
+            document.getElementById("hbg_btn").onclick = openCloseMenu;
+        }
+        window.addEventListener("load", init, false);
+    </script>
+</body>
+</html>

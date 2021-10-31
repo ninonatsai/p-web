@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="notes-rwd.css">
+</head>
+<body>
+    
+    <div class="main-header">
+        <div class="logo">
+            <a href="home-rwd.html"><img src="../icon/logo.svg" alt="ninona_handmade"></a>
+        </div>
+        <img src="../icon/hbg.svg" alt="漢堡" id="hbg_btn" class="myMOUSE">
+        <nav id="menu">
+            <a href="story-rwd.html"><img src="../icon/story.svg" alt="品牌故事"></a>
+            <a href="products-rwd.html"><img src="../icon/product.svg" alt="商品"></a>
+            <a href="custom-rwd.html"><img src="../icon/custom.svg" alt="客製委託"></a>
+            <a href="sign-rwd.html"><img src="../icon/sign.svg" alt="註冊_登入"></a>
+            <a href="shop-rwd.html"><img src="../icon/shop.svg" alt="購物車"></a>
+        </nav>
+    </div>
+
+    <div class="up_line">
+        <img src="../icon/line.svg" alt="上裝飾線">
+    </div>
+    <div class="notes_txt">
+        <h1>購物須知</h1>
+        <ul>
+            <li><h2>關於商品注意事項</h2></li>
+            <li>
+                <p>每件商品都是手工製作，微小的尺寸誤差跟有手作痕跡都是正常現象。
+                </p>
+            </li>
+            <li><h2>關於客製商品</h2></li>
+            <li>
+                <p>客製商品均為特別製作，不接受任何理由退換貨，如有瑕疵問題可以透過社群或聯絡我們聯繫。
+                </p>
+            </li>
+            <li><h2>關於退換貨</h2></li>
+            <li>
+                <p>商品有任何瑕疵問題可以透過社群或聯絡我們聯繫。
+                </p>
+            </li>
+            <li><h2>關於寄送</h2></li>
+            <li>
+                <p>商品都會詳細檢查，妥善包裝後寄出，如包裹外觀有撞傷或泡水問題，請跟物流公司反應。
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="d_line">
+        <img src="../icon/line-2.svg" alt="下裝飾線">
+    </div>
+    <footer>
+        <a href="#"><img src="../icon/contact.svg" alt="聯絡我們"></a>
+        <a href="#"><img src="../icon/notice.svg" alt="購物須知"></a>
+        <div class="sns">
+            <a href="https://www.facebook.com/"><img src="../icon/fb.svg" alt="FB"></a>
+            <a href="https://www.instagram.com/"><img src="../icon/ig.svg" alt="IG"></a>  
+        </div>  
+    </footer>
+
+
+    <!---------------- JS -------------------->
+    
+    <!-- ------------漢堡選單------------- -->
+    <script>
+        function openCloseMenu(){
+            if(document.getElementById("menu").className == ""){
+                document.getElementById("menu").className = "show";
+                document.getElementById("hbg_btn").src = "../icon/x.svg";
+            }else{
+                document.getElementById("menu").className = "";
+                document.getElementById("hbg_btn").src = "../icon/hbg.svg";
+            }
+        }
+        function init(){
+            document.getElementById("hbg_btn").onclick = openCloseMenu;
+        }
+        window.addEventListener("load", init, false);
+    </script>
+</body>
+</html>

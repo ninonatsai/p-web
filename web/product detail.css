@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 
 .logo img{
@@ -20,7 +20,11 @@ nav{
 .nav_button button,.footer_button button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 10px;
+    padding-right: 20px;
+}
+
+.nav_button button:last-child{
+    padding: 0 0 0 50px;
 }
 
 .nav_button a:hover,.footer_button a:hover{
@@ -72,6 +76,25 @@ nav{
     border-radius: 10px;
     margin-right: 10px;
 }
+
+.product_title{
+    display: flex;
+    border-bottom: 3px solid #bd9ac6;
+    padding-bottom: 15px;
+}
+
+.product_title button,.item_button button{
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.product_title a,.item_button a{
+    font-size: 16px;
+    color: #ebe0ee;
+    text-decoration: none;
+}
+
 .product_text{
     width: 350px;
     padding-left: 50px;
@@ -80,8 +103,7 @@ nav{
 .product_text h2{
     font-size: 26px;
     color: #382863;
-    border-bottom: 3px solid #bd9ac6;
-    padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 .product_text h3{
@@ -94,7 +116,7 @@ nav{
     font-size: 16px;
     color: #382863;
     line-height: 1.5;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .series{
@@ -117,7 +139,6 @@ nav{
 .item_button{
     display: flex;
     align-items: center;
-    
 }
 
 .item_button p{
@@ -133,16 +154,6 @@ select{
     border-radius: 5px;
     padding: 5px 10px;
     margin: 0 10px 0 70px;
-}
-
-.item_button button{
-    font-size: 16px;
-    font-family: 華康中圓體;
-    color: #ebe0ee;
-    background-color: #8169ac;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
 }
 
 .others{
@@ -214,11 +225,11 @@ footer{
 }
 
 .sns{
-    margin: 0 30px;
+    margin: 0 60px 0 20px;
 }
 
 .sns button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 5px;
+    padding-left: 5px;
 }

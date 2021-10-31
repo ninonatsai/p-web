@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 
 .logo img{
@@ -20,7 +20,11 @@ nav{
 .nav_button button,.footer_button button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 10px;
+    padding-right: 20px;
+}
+
+.nav_button button:last-child{
+    padding: 0 0 0 50px;
 }
 
 .nav_button a:hover,.footer_button a:hover{
@@ -118,8 +122,8 @@ h4{
 input.minus{
     font-family: 華康中圓體;
     font-size: 20px;
-    color: #ebe0ee;
-    background: #8169ac;
+    color: #382863;
+    background: #bd9ac6;
     border: none;
     border-radius: 3px;
     width: 25px;
@@ -130,8 +134,8 @@ input.minus{
     font-family: 華康中圓體;
     font-size: 20px;
     text-align: center;
-    color: #ebe0ee;
-    background: #8169ac;
+    color: #382863;
+    background: #bd9ac6;
     border: none;
     border-radius: 3px;
     width: 35px;
@@ -142,8 +146,8 @@ input.minus{
 input.plus{
     font-family: 華康中圓體;
     font-size: 20px;
-    color: #ebe0ee;
-    background: #8169ac;
+    color: #382863;
+    background: #bd9ac6;
     border: none;
     border-radius: 3px;
     width: 25px;
@@ -238,7 +242,7 @@ p{
 
 .sc_button{
     text-align: end;
-    border-top: 3px solid #bd9ac6;
+    border-top: 3px solid #8169ac;
     padding-top: 15px;
     margin-top: 30px;
 }
@@ -272,11 +276,11 @@ footer{
 }
 
 .sns{
-    margin: 0 30px;
+    margin: 0 60px 0 20px;
 }
 
 .sns button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 5px;
+    padding-left: 5px;
 }

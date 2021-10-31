@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 
 .logo img{
@@ -20,7 +20,11 @@ nav{
 .nav_button button,.footer_button button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 10px;
+    padding-right: 20px;
+}
+
+.nav_button button:last-child{
+    padding: 0 0 0 50px;
 }
 
 .nav_button a:hover,.footer_button a:hover{
@@ -67,17 +71,25 @@ nav{
 }
 
 .visual_pic{
-    width: 840px;
+    width: 960px;
     margin: 0 auto 200px;
     box-sizing: border-box;
     display: flex;
 }
 
 .visual_pic img{
-    width: 190px;
-    border-radius: 25px;
+    width: 300px;
     text-align: center;
     padding: 0 10px;
+}
+
+.visual_pic h3{
+    font-size: 24px;
+    color: #8169ac;
+    text-align: end;
+    transform:rotate(-30deg);
+    margin-top: 20px;
+    margin-right: 38px;
 }
 
 .new{
@@ -168,16 +180,15 @@ nav{
 }
 
 .procedure{
-    width: 810px;
-    display: flex;
-    align-items: center;
+    width: 730px;
     margin: 0 auto 80px;
 }
 
 .custom_click{
+    width: 670px;
     display: flex;
     align-items: center;
-    margin: 0 0 40px;
+    margin: 0 auto 30px;
 }
 
 .custom_click h3{
@@ -187,30 +198,30 @@ nav{
 }
 
 .custom_click img{
+    width: 350px;
+}
+
+.custom_click img:nth-child(2){
     width: 80px;
+    margin: 0 10px 0 30px;
 }
 
-.custom_click button{
-    border: none;
-    background-color: #ffffff00;
-}
-
-.custom_click button img{
+.custom_click a img{
     width: 200px;
 }
 
-.procedure_item p{
+.procedure th p{
     font-size: 18px;
     color: #8169ac;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.procedure_item td img{
-    width: 120px;
+.procedure td img{
+    width: 100px;
 }
 
-.procedure_item tbody td:nth-of-type(even) img{
+.procedure tbody td:nth-of-type(even) img{
     width: 40px;
     margin: 0 35px 50px;
 }
@@ -223,19 +234,19 @@ footer{
 }
 
 .sns{
-    margin: 0 30px;
+    margin: 0 60px 0 20px;
 }
 
 .sns button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 5px;
+    padding-left: 5px;
 }
 
 .back_top{
     width: 30px;
     position: fixed;
-    bottom: 60px;
+    bottom: 30px;
     right: 20px;
 }
 

@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 
 .logo img{
@@ -20,7 +20,11 @@ nav{
 .nav_button button,.footer_button button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 10px;
+    padding-right: 20px;
+}
+
+.nav_button button:last-child{
+    padding: 0 0 0 50px;
 }
 
 .nav_button a:hover,.footer_button a:hover{
@@ -36,7 +40,7 @@ nav{
 }
 
 .costom_detail{
-    width: 1000px;
+    width: 1200px;
     display: flex;
     margin: 50px auto 40px;
 }
@@ -138,20 +142,23 @@ button{
 }
 
 .costom_pic{
-    width: 650px;
+    width: 800px;
     margin-left: 50px;
 }
 
-.costom_pic img:first-child{
-    width: 630px;
-    padding: 0 10px;
+.choice_pic{
+    display: flex;
 }
 
-.costom_pic img{
-    width: 300px;
-    padding: 10px;
+.choice_pic img{
+    width: 180px;
+    border-radius: 10px;
 }
 
+.choice_pic li{
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
 
 footer{
     height: 80px;
@@ -161,11 +168,11 @@ footer{
 }
 
 .sns{
-    margin: 0 30px;
+    margin: 0 60px 0 20px;
 }
 
 .sns button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 5px;
+    padding-left: 5px;
 }

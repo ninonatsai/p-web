@@ -1,0 +1,232 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{font-size: 30px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+p{font-size: 16px;}
+
+.myMOUSE{ cursor: pointer;}
+
+/*-----------導覽列-------------*/
+.main-header{
+    height: 60px;
+    position: relative;
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+#hbg_btn{
+    width: 40px;
+    margin: 0 5px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#menu{
+    width: 150px;
+    height: 270px;
+    background-color: #bd9ac6;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -600px;
+}
+
+#menu.show{
+    top: 60px;
+    z-index: 1;
+}
+
+nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+nav img:hover,footer img:hover{
+    border-bottom: 2px solid #382863;
+}
+
+@media screen and (min-width:786px) {
+    #hbg_btn {display: none;}
+    .main-header{
+        display: flex;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color: #00000000;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
+
+.up_line,.d_line{
+    width: 100%;
+    overflow: hidden;
+}
+/*-----------委託表單-------------*/
+#costom_form{
+    max-width: 1200px;
+    margin: 5% auto;
+}
+
+h1{
+    color: #382863;
+    border-bottom:3px solid #bd9ac6;
+    padding-bottom: 15px;
+}
+
+h2{
+    color: #382863;
+    margin: 15px 0;
+}
+
+ul + h4{
+    margin-top: 50px;
+}
+
+h4{
+    color: #382863;
+    margin: 20px 0 5px;
+}
+
+p{
+    color: #8169ac;
+    line-height: 1.5;
+}
+
+select,textarea{
+    width: 250px;
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    border: none;
+    background-color: #8169accc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+textarea{
+    width: 240px;
+}
+
+.extra h4{
+    margin-bottom: 15px;
+}
+
+.extra select{
+    margin-bottom: 10px;
+}
+
+input[type=checkbox]+span{
+    font-size: 16px;
+    color: #382863;
+}
+
+.agree{
+    border-top:3px solid #bd9ac6;
+    border-bottom:3px solid #bd9ac6;
+    margin-top: 20px;
+    padding: 15px 0;
+}
+
+.form_button{
+    text-align: end;
+    padding-top: 15px;
+}
+
+.form_button a{
+    text-decoration: none;
+    color: #ebe0ee;
+}
+
+button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.cancel{
+    background-color: #868293;
+}
+
+.sure{
+    background-color: #382863;
+}
+
+/*-----------選項圖片-------------*/
+.choice_pic{
+    display: flex;
+}
+
+.choice_pic img{
+    width: 90%;
+    border-radius: 10px;
+}
+.choice_pic li{
+    display: inline;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+/*-----------footer-------------*/
+footer{
+    text-align: end;
+    padding-right: 1%;
+}
+
+footer img{
+    height: 30px;
+    margin: 5px;
+}
+
+@media screen and (max-width:786px){
+    h1{font-size: 26px;}
+    h2{font-size: 22px;}
+    h3{font-size: 20px;}
+    h4{font-size: 16px;}
+    p{font-size: 12px;}
+    
+    #choice_pic,.choice_pic{
+        display: none;
+    }
+
+    .select_pic{
+        display: flex;
+    }
+
+    .select_pic div{
+        max-width: 150px;
+    }
+
+    .select_pic img{
+        width: 90%;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width:785px){
+    .select_pic{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .choice_pic li p{font-size: 14px;}
+}

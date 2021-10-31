@@ -1,0 +1,301 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{font-size: 30px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+p{font-size: 16px;}
+
+.myMOUSE{ cursor: pointer;}
+
+/*-----------導覽列-------------*/
+.header{
+    height: 60px;
+    position: relative;
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+#hbg_btn{
+    width: 40px;
+    margin: 0 5px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#menu{
+    width: 150px;
+    height: 270px;
+    background-color: #bd9ac6;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -600px;
+}
+
+#menu.show{
+    top: 60px;
+    z-index: 1;
+}
+
+nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+nav img:hover,footer img:hover{
+    border-bottom: 2px solid #382863;
+}
+
+@media screen and (min-width:786px) {
+    #hbg_btn {display: none;}
+    .header{
+        display: flex;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color: #00000000;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
+
+.up_line,.d_line{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*-----------回上一頁-------------*/
+.back{
+    max-width: 960px;
+    margin: 5% auto 2%;
+}
+
+.back a{
+    color: #8169ac;
+    text-decoration: none;
+}
+
+.back img{
+    width: 16px;
+    margin: 0 5px 0 5%;
+}
+/*-----------商品圖-------------*/
+.container{
+    max-width: 960px;
+    margin-bottom: 3%;
+}
+
+.pd_pic{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pic_big img{
+    width: 100%;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.pic_small img{
+    max-width: 100px;
+    border-radius: 15px;
+    vertical-align: top;
+    margin: 15px 10px 0 0;
+}
+/*-----------商品資訊-------------*/
+.pd_inf{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pd_txt h1{
+    color: #382863;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #bd9ac6;
+}
+
+.pd_txt h2{
+    color: #382863;
+    padding-top: 15px;
+}
+
+.pd_txt a{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    text-decoration: none;
+    background-color: #8169ac;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+}
+
+.pd_txt h4{
+    color: #382863;
+    margin: 80px 0 50px;
+    line-height: 1.2;
+}
+
+.pd_txt p{
+    color: #382863;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #bd9ac6;
+}
+
+.series{
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.series_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.series_item img{
+    max-width: 80px;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-right: 3%;
+}
+
+.series_item p{
+    color: #382863;
+}
+
+select{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    border: none;
+    background-color: #8169ac;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 0 4% 0 30%;
+}
+
+.series_item a{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    text-decoration: none;
+    background-color: #8169ac;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/*-----------推薦商品-------------*/
+.recommend{
+    background-color: #8169ac;
+    padding: 3% 15% 5%;
+    margin-bottom: 5%;
+}
+
+.recommend h2{
+    color: #ebe0ee;
+    margin-bottom: 30px;
+}
+
+.slider{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.slider li img{
+    max-width: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.slick-prev::before, .slick-next::before{
+    display: none;
+}
+
+.slick-prev{
+    left: -50px;
+    top: 40%;
+}
+
+.slick-next{
+    right: -13px;
+    top: 40%;
+}
+
+.slider h4{
+    color: #ebe0ee;
+    margin: 10px 0 7px;
+}
+
+.slider p{
+    color: #ebe0ee;
+}
+
+/*-----------footer-------------*/
+footer{
+    text-align: end;
+    padding-right: 1%;
+}
+
+
+footer img{
+    height: 30px;
+    margin: 5px;
+}
+
+
+/*-----------RWD-------------*/
+@media screen and (max-width:786px){
+    h1{font-size: 26px;}
+    h2{font-size: 22px;}
+    h3{font-size: 20px;}
+    h4{font-size: 16px;}
+    p{font-size: 12px;}
+
+    .back{margin-left: 3%;}
+    .pic_small img{
+        max-width: 70px;
+        border-radius: 10px;
+    }
+
+    .series_item a{
+        font-size: 12px;
+    }
+
+    .recommend{
+        padding: 5% 10% 6%;
+    }
+
+    .slider li img{
+        width: 90%;
+    }
+
+    .slick-prev img,.slick-next img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .recommend{
+        padding: 3% 10% 5%;
+    }
+
+
+    .slick-prev img,.slick-next img{
+        display: none;
+    }
+}

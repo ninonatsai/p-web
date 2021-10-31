@@ -1,0 +1,157 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{font-size: 30px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+p{font-size: 16px;}
+
+.myMOUSE{ cursor: pointer;}
+
+/*-----------導覽列-------------*/
+.main-header{
+    height: 60px;
+    position: relative;
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+#hbg_btn{
+    width: 40px;
+    margin: 0 5px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#menu{
+    width: 150px;
+    height: 270px;
+    background-color: #bd9ac6;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -600px;
+}
+
+#menu.show{
+    top: 60px;
+    z-index: 1;
+}
+
+nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+nav img:hover,footer img:hover{
+    border-bottom: 2px solid #382863;
+}
+
+@media screen and (min-width:786px) {
+    #hbg_btn {display: none;}
+    .main-header{
+        display: flex;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color: #00000000;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
+
+.up_line,.d_line{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*-----------登入表單-------------*/
+
+.sign_up{
+    width: 265px;
+    margin: 5% auto;
+}
+
+h1{
+    color: #382863;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #bd9ac6;
+}
+
+h4{
+    color: #382863;
+}
+
+form h4:first-child{
+    margin-top: 15px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    background-color: #8169ac88;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1em;
+    margin: 5px 0 15px 0;
+}
+
+.sign_button{
+    text-align: end;
+    border-top: 3px solid #bd9ac6;
+    padding-top: 15px;
+}
+
+.sign_button a{
+    text-decoration: none;
+    color: #ebe0ee;
+}
+
+button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.already{
+    background-color: #bd9ac6;
+}
+
+.signup{
+    background-color: #382863;
+}
+
+/*-----------footer-------------*/
+footer{
+    text-align: end;
+    padding-right: 1%;
+}
+
+footer img{
+    height: 30px;
+    margin: 5px;
+}
+
+/*-----------RWD-------------*/
+@media screen and (max-width:786px){
+    .sign_up{
+        margin: 7% auto 30%;
+    }
+}

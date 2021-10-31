@@ -1,0 +1,197 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{font-size: 30px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+p{font-size: 16px;}
+
+.myMOUSE{ cursor: pointer;}
+
+/*-----------導覽列-------------*/
+.main-header{
+    height: 60px;
+    position: relative;
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+#hbg_btn{
+    width: 40px;
+    margin: 0 5px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#menu{
+    width: 150px;
+    height: 270px;
+    background-color: #bd9ac6;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -600px;
+}
+
+#menu.show{
+    top: 60px;
+    z-index: 1;
+}
+
+nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+nav img:hover,footer img:hover{
+    border-bottom: 2px solid #382863;
+}
+
+@media screen and (min-width:786px) {
+    #hbg_btn {display: none;}
+    .main-header{
+        display: flex;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color: #00000000;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
+
+.up_line,.d_line{
+    width: 100%;
+    overflow: hidden;
+}
+/*-----------產品區-------------*/
+.container{
+    max-width: 1000px;
+    display: flex;
+    margin-top: 5%;
+}
+
+.pd_menu{
+    width: 110px;
+    margin: 10px 20px 0 0;
+    position: relative;
+}
+
+.pd_menu li{
+    padding-bottom: 15px;
+}
+
+.pd_menu img{
+    background-color: #bd9ac6;
+    padding: 15px 20px 15px 20px;
+    border-top-right-radius: 50%;
+    border-end-end-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+
+.pd_menu h1{
+    color: #382863;
+    border-bottom: 3px solid #bd9ac6;
+    padding-bottom: 15px;
+}
+
+.pd_menu h3{
+    color: #382863;
+}
+
+.product_item img{
+    width: 100%;
+    border-radius: 15px;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+h4{
+    color: #382863;
+    margin-bottom: 5px;
+}
+
+p{
+    color: #382863;
+    margin-bottom: 15px;
+}
+
+.product_item button{
+    background-color: #8169ac;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+}
+
+.product_item button a{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    color: #ebe0ee;
+    text-decoration: none;
+}
+
+/*-----------頁數-------------*/
+
+.page{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.page a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8169ac;
+    padding: 0 3px;
+}
+
+.page a:nth-child(2){
+    border-bottom: 1px solid #8169ac;
+}
+
+/*-----------footer-------------*/
+footer{
+    text-align: end;
+    padding-right: 1%;
+}
+
+footer img{
+    height: 30px;
+    margin: 5px;
+}
+
+/*-----------RWD-------------*/
+
+@media screen and (max-width:786px){
+    h1{font-size: 26px;}
+    h2{font-size: 22px;}
+    h3{font-size: 20px;}
+    h4{font-size: 16px;}
+    p{font-size: 12px;}
+
+    .product_item button{
+        padding: 2px 10px 4px;
+    }
+    .product_item button a{
+        font-size: 12px;
+    }
+
+    .pd_menu h1{
+        max-width: 80px;
+    }
+}

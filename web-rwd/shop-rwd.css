@@ -1,0 +1,356 @@
+body{
+    font-family: 華康中圓體, 微軟正黑體;
+    background-image: url(../pic/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{font-size: 30px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+p{font-size: 16px;}
+
+.myMOUSE{ cursor: pointer;}
+
+/*-----------導覽列-------------*/
+.main-header{
+    height: 60px;
+    position: relative;
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+#hbg_btn{
+    width: 40px;
+    margin: 0 5px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#menu{
+    width: 150px;
+    height: 270px;
+    background-color: #bd9ac6;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: -600px;
+}
+
+#menu.show{
+    top: 60px;
+    z-index: 1;
+}
+
+nav img{
+    height: 30px;
+    margin: 10px;
+}
+
+nav img:hover,footer img:hover{
+    border-bottom: 2px solid #382863;
+}
+
+@media screen and (min-width:786px) {
+    #hbg_btn {display: none;}
+    .main-header{
+        display: flex;
+    }
+    #menu{
+        width: auto;
+        height: auto;
+        background-color: #00000000;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}
+
+.up_line,.d_line{
+    width: 100%;
+    overflow: hidden;
+}
+/*-----------購物清單-------------*/
+.cart{
+    max-width: 800px;
+    margin: 5% auto 2%;
+}
+
+h1,h4{
+    color: #382863;
+}
+
+.shopping_list h3{
+    color: #ebe0ee;
+}
+
+.shopping_list{
+    width: 100%;
+    margin: 15px 0 10px;
+    border-bottom: 3px solid #bd9ac6;
+}
+
+.shopping_list th{
+    height: 40px;
+    background-color: #8169ac;
+}
+
+.shopping_list thead th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.shopping_list thead th:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 80px;
+}
+  
+.shopping_list thead th:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 120px;
+}
+
+.shopping_list thead th:nth-child(3){
+    width: 250px;
+}
+
+.shopping_list tbody td{
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.shopping_list button{
+    border: none;
+    background-color: #ffffff00;
+}
+#delete img{
+    width: 30px;
+}
+
+#pd_pic img{
+    width: 80px;
+    border-radius: 20px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+input.minus{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    color: #382863;
+    background: #bd9ac6;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    height: 35px;
+}
+
+.qty{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    text-align: center;
+    color: #382863;
+    background: #bd9ac6;
+    border: none;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+input.plus{
+    font-family: 華康中圓體;
+    font-size: 20px;
+    color: #382863;
+    background: #bd9ac6;
+    border: none;
+    border-radius: 3px;
+    width: 25px;
+    height: 35px;
+}
+
+/*-----------總計表格-------------*/
+.shopping_total{
+    height: 200px;
+    position: relative;
+}
+
+.shopping_total h3{
+    font-size: 24px;
+    color: #8169ac;
+    text-align: end;
+}
+
+.shopping_total table{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.shopping_total thead th:last-child{
+    width: 120px;
+}
+
+.shopping_total td{
+    padding: 10px 0 20px;
+}
+
+.shopping_total table tbody tr:nth-child(2){
+    border-top: 3px solid #bd9ac6;
+}
+
+/*-----------結帳資訊-------------*/
+.container{
+    max-width: 800px;
+}
+
+#inf h1{
+    border-bottom: 3px solid #bd9ac6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.pay h4:first-child{
+    margin-bottom: 5px;
+}
+
+.pay h4:not(:first-child){
+    margin-top: 30px;
+}
+
+.pay input[type="radio"]{
+    margin-right: 5px;
+}
+
+.pay p{
+    color: #382863;
+    line-height: 1.5;
+    text-indent : 1.1em;
+}
+
+.recipient p{
+    color: #382863;
+    line-height: 1.5;
+}
+
+.recipient input{
+    width: 250px;
+    height: 40px;
+    font-family: 華康中圓體;
+    font-size: 16px;
+    color: #ebe0ee;
+    background-color: #8169ac88;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1em;
+    margin: 5px 0 15px 0;
+}
+
+.recipient textarea{
+    font-family: 華康中圓體;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ebe0ee;
+    background-color: #8169ac88;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+/*-----------送出按鈕-------------*/
+
+.sc_button{
+    max-width: 800px;
+    text-align: end;
+    border-top: 3px solid #8169ac;
+    padding: 15px 15px 0;
+    margin: 0 auto 5%;
+}
+
+.sc_button a{
+    text-decoration: none;
+    color: #ebe0ee;
+}
+
+button{
+    font-size: 16px;
+    font-family: 華康中圓體;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.sc_button button:first-child{
+    background-color: #bd9ac6;
+}
+
+.sc_button button:last-child{
+    background-color: #382863;
+}
+
+/*-----------footer-------------*/
+footer{
+    text-align: end;
+    padding-right: 1%;
+}
+
+footer img{
+    height: 30px;
+    margin: 5px;
+}
+
+/*-----------RWD-------------*/
+
+@media screen and (max-width:786px){
+    .cart{
+        max-width: 500px;
+        padding: 0 15px;
+    }
+    .shopping_list{border-bottom: none;}
+    .shopping_list thead{display: none;}
+    .shopping_list tr{
+        display: block;
+        border: 3px solid #bd9ac6;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .shopping_list tbody td{
+        display: block;
+        text-align: left;
+    }
+
+    .shopping_list tbody td:not(:nth-child(1),:nth-child(2)){
+        text-align: right;
+    }
+
+    .shopping_list tbody td:last-child{
+        height: 30px;
+        margin-top: 15px;
+    }
+
+    .shopping_list h4:before{
+        content: attr(data-title);
+        color: #8169ac;
+    }
+
+    #pd_pic img{
+        width: 100px;
+    }
+
+    #inf .row div:nth-child(even){
+        display: none;
+    }
+
+
+}

@@ -10,7 +10,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 60px;
 }
 
 .logo img{
@@ -20,7 +20,11 @@ nav{
 .nav_button button,.footer_button button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 10px;
+    padding-right: 20px;
+}
+
+.nav_button button:last-child{
+    padding: 0 0 0 50px;
 }
 
 .nav_button a:hover,.footer_button a:hover{
@@ -53,6 +57,19 @@ h3{
 h4{
     font-size: 20px;
     color: #382863;
+}
+
+button{
+    background-color: #382863;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+button a{
+    font-size: 16px;
+    color: #ebe0ee;
+    text-decoration: none;
 }
 
 .data table{
@@ -147,15 +164,6 @@ h4{
     background-color: #868293;
 }
 
-button{
-    font-size: 16px;
-    color: #ebe0ee;
-    background-color: #382863;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-
 footer{
     height: 80px;
     display: flex;
@@ -164,11 +172,11 @@ footer{
 }
 
 .sns{
-    margin: 0 30px;
+    margin: 0 60px 0 20px;
 }
 
 .sns button{
     border: none;
     background-color: #ffffff00;
-    padding: 0 5px;
+    padding-left: 5px;
 }
