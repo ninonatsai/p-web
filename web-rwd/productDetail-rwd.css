@@ -170,7 +170,7 @@ nav img:hover,footer img:hover{
 .series_item img{
     max-width: 80px;
     vertical-align: top;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-right: 3%;
 }
 
